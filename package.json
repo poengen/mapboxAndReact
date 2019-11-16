@@ -1,7 +1,7 @@
 {
   "name": "mapboxAndReact",
   "version": "0.0.1",
-  "homepage": "http://myname.github.io/mapboxAndReact",
+  "homepage": "http://poengen.github.io/mapboxAndReact",
   "dependencies": {
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
