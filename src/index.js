@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import mapboxgl from 'mapbox-gl';
+import { loadMountains } from './map.js';
 
 mapboxgl.accessToken = 'pk.eyJ1IjoicG9lbmdlbiIsImEiOiJjazBiZHQyY3EwcXl5M2lwaXhlMXc4a29zIn0.QSXSFFJRHwXTsyYLYFIZ5w';
 
@@ -8,18 +9,19 @@ class Application extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      lng: 5,
-      lat: 34,
-      zoom: 2,
+      lng: 7.4,
+      lat: 62.42,
+      zoom: 10,
     };
   }
   componentDidMount() {
     const map = new mapboxgl.Map({
       container: this.mapContainer,
-      style: 'mapbox://styles/mapbox/streets-v11',
+      style: 'mapbox://styles/mapbox/outdoors-v11', // 'mapbox://styles/mapbox/streets-v11',
       center: [ this.state.lng, this.state.lat ],
       zoom: this.state.zoom,
     });
+    loadMountains(map);
     map.on('move', () => {
       this.setState({
         lng: map.getCenter().lng.toFixed(4),
