@@ -18,3 +18,16 @@
   padding: 6px;
   font-weight: bold;
 }
+
+.menu {
+  display: inline-block;
+  position: absolute;
+  top: 36px;
+  left: 0;
+  margin: 12px;
+  background-color: #404040;
+  color: #ffffff;
+  z-index: 1 !important;
+  padding: 6px;
+  font-weight: bold;
+}

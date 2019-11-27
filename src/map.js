@@ -1,3 +1,7 @@
+exports.myFunction = function() {
+  return 'hei';
+};
+
 exports.loadMountains = function(map) {
   map.on('load', function() {
     map.addLayer({
