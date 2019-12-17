@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.js": "/mapboxAndReact/static/js/main.51739ea2.chunk.js",
-    "main.js.map": "/mapboxAndReact/static/js/main.51739ea2.chunk.js.map",
-    "runtime-main.js": "/mapboxAndReact/static/js/runtime-main.95ac5915.js",
-    "runtime-main.js.map": "/mapboxAndReact/static/js/runtime-main.95ac5915.js.map",
-    "static/js/2.0ed7ef3c.chunk.js": "/mapboxAndReact/static/js/2.0ed7ef3c.chunk.js",
-    "static/js/2.0ed7ef3c.chunk.js.map": "/mapboxAndReact/static/js/2.0ed7ef3c.chunk.js.map",
+    "main.js": "/mapboxAndReact/static/js/main.da8aed12.chunk.js",
+    "main.js.map": "/mapboxAndReact/static/js/main.da8aed12.chunk.js.map",
+    "runtime-main.js": "/mapboxAndReact/static/js/runtime-main.48eba4ab.js",
+    "runtime-main.js.map": "/mapboxAndReact/static/js/runtime-main.48eba4ab.js.map",
+    "static/js/2.245de20d.chunk.js": "/mapboxAndReact/static/js/2.245de20d.chunk.js",
+    "static/js/2.245de20d.chunk.js.map": "/mapboxAndReact/static/js/2.245de20d.chunk.js.map",
     "index.html": "/mapboxAndReact/index.html",
-    "precache-manifest.64276ba96f6d2fac1fb3ebd22afed887.js": "/mapboxAndReact/precache-manifest.64276ba96f6d2fac1fb3ebd22afed887.js",
-    "service-worker.js": "/mapboxAndReact/service-worker.js"
+    "precache-manifest.41e29706c05ff35a8a408ff297226aa6.js": "/mapboxAndReact/precache-manifest.41e29706c05ff35a8a408ff297226aa6.js",
+    "service-worker.js": "/mapboxAndReact/service-worker.js",
+    "static/js/2.245de20d.chunk.js.LICENSE": "/mapboxAndReact/static/js/2.245de20d.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.95ac5915.js",
-    "static/js/2.0ed7ef3c.chunk.js",
-    "static/js/main.51739ea2.chunk.js"
+    "static/js/runtime-main.48eba4ab.js",
+    "static/js/2.245de20d.chunk.js",
+    "static/js/main.da8aed12.chunk.js"
   ]
 }
