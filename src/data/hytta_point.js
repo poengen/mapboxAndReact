@@ -13,7 +13,7 @@ module.exports = {
             coordinates: [ 7.42, 62.433 ],
           },
           properties: {
-            title: 'Hytta til Pål',
+            title: 'Hytta til Pål O',
             icon: 'harbor',
           },
         },
